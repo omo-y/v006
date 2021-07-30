@@ -22,12 +22,12 @@ export const UserCard = (props) => {
   );
 };
 const SDL = styled.dl`
-text-align:left;
-dt {
- float: left;
-}
-dd{
-  padding-left: 32px;
-  padding-bottom 8px;
-}
+  text-align: left;
+  dt {
+    float: left;
+  }
+  dd {
+    padding-left: 32px;
+    padding-bottom: 8px;
+  }
 `;
