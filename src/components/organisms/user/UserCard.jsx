@@ -1,12 +1,12 @@
 import styled from "styled-components";
+import { UserIconWithName } from "../../../molecules/user/UsericonWithName";
 import { Card } from "../../atoms/card/Card";
 export const UserCard = (props) => {
   const { user } = props;
   return (
     <Card>
-      <img height={120} width={150} src={user.image} alt={user.name} />
+      <UserIconWithName name={user.name} image={user.image} />
       <SDL>
-        <p>{user.name}</p>
         <dl>
           <dt>email</dt>
           <dd>{user.email}</dd>
